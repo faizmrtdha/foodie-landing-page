@@ -1,0 +1,8 @@
+@use "base" as *;
+@use "components";
+
+body {
+  min-height: 100vh;
+  font-family: $ff-montserrat;
+  background-color: $clr-neutral-100;
+}
