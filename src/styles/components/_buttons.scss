@@ -1,0 +1,17 @@
+@use "../base/variables" as *;
+
+button.btn {
+  text-transform: inherit;
+  border-radius: 25px;
+  font-family: $ff-montserrat;
+  font-weight: $fw-bold;
+  padding: 0.75em 1.5em;
+  &.btn-primary {
+    background: $clr-primary-900;
+    color: $clr-neutral-100;
+  }
+  &.btn-secondary {
+    background-color: $clr-neutral-100;
+    color: black;
+  }
+}
