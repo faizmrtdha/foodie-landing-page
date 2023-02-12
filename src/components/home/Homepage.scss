@@ -16,7 +16,7 @@
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    right: 3rem;
+    right: 6rem;
     max-width: 600px;
   }
   &__content {
@@ -26,10 +26,11 @@
     align-items: flex-start;
     justify-content: center;
     gap: 48px;
-    max-width: 693px;
+    max-width: 640px;
     &-header {
       font-size: 3.75rem;
       font-weight: $fw-bold;
+      line-height: 73px;
     }
     &-body {
       font-size: 1.5rem;
