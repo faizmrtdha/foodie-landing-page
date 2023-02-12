@@ -1,0 +1,36 @@
+@use "../../styles/base/variables" as *;
+
+header {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+    .navLogo {
+      width: 182px;
+    }
+    .navLink {
+      display: flex;
+      align-items: center;
+      a {
+        margin-right: 2rem;
+        color: black;
+        font-weight: $fw-bold;
+      }
+    }
+    .navMenu {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      .navMenu {
+        display: flex;
+      }
+      .navLink {
+        display: none;
+      }
+    }
+  }
+}
